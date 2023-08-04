@@ -85,8 +85,10 @@ public class AuthController {
 	}
 
 	// get loggedin user data
+	
 	@Autowired
 	private UserRepo userRepo;
+	
 	@Autowired
 	private ModelMapper mapper;
 
